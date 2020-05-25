@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ApplicationIcon></ApplicationIcon>
+    <AssemblyName>ServerCore</AssemblyName>
+    <RootNamespace>ServerCore</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite" Version="1.0.112" />
+  </ItemGroup>
+
+</Project>

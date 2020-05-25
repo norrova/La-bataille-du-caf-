@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <AssemblyName>Test</AssemblyName>
+
+    <RootNamespace>Test</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="sqlite" Version="3.13.0" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.112" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="coverlet.collector" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ServerTest\" />
+    <Folder Include="DecoderTest\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="UnitTest1.cs" />
+    <Compile Remove="DecoderTest\GameBoardTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ServerCore\ServerCore.csproj" />
+    <ProjectReference Include="..\GameCore\GameCore.csproj" />
+  </ItemGroup>
+</Project>

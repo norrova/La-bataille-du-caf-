@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameCore.Coordinate">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAABgAAAAAQAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Coordinate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameCore.Decoder">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAEAABAIAAQAAAAAAAAAAAQBQQQAAAAQ=</HashCode>
+      <FileName>Decoder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameCore.Game">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAMAAgAAAQAAAAACAAgAAAAAAAAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameCore.IA">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAAACIABFEAAAEQAAAAACEAACAAAAAAgCEAAAAAAAA=</HashCode>
+      <FileName>IA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameCore.Map">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAEAAAAAAAAAAAAAAAAAAAAkAEAAAAAAAAAAAIQ=</HashCode>
+      <FileName>Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameCore.Parcel">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAICAAAA=</HashCode>
+      <FileName>Parcel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameCore.Player">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameCore.Score">
+    <Position X="5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Score.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameCore.Unit">
+    <Position X="16" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAABEAACAAAgAAAAAAACAAAA=</HashCode>
+      <FileName>Unit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="GameCore.Seed">
+    <Position X="12.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAABAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Seed.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
